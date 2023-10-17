@@ -22,7 +22,9 @@ def hu2gray(volume, WL=-500, WW=1200):
     return volume
 
 
-src_root = 'G:\\pneumonia_data\\normal_person2'  # normal person
+# src_root = 'G:\\pneumonia_data\\normal_person_2022.01.12(Thin layers)'  # normal person
+# src_root = 'G:\\pneumonia_data\\normal_person2'  # normal person
+src_root = 'G:\\pneumonia_data\\SWH_normal_person'  # normal person
 dst_root = 'G:\\rgb_chest'  # rgb_chest
 os.makedirs(dst_root, exist_ok=True)
 
